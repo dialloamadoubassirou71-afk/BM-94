@@ -1,33 +1,32 @@
-BM-94 Dashboard Admin
+# BM-94 Dashboard Admin
 
-## Description
+##  Description
+BM-94 est une interface d’administration (dashboard) conçue pour afficher et gérer des données de manière claire et structurée.  
+Le projet met en avant une navigation simple, des statistiques visuelles et un tableau de données.
 
-Projet de tableau de bord (dashboard) admin avec menu latéral et statistiques.
+---
 
-## Fonctionnalités
+##  Objectifs
+- Créer une interface admin moderne
+- Structurer les données de façon lisible
+- Utiliser CSS Grid pour la mise en page
+- Améliorer l’expérience utilisateur
 
-- Sidebar (menu latéral)
+---
 
-- Cartes de statistiques
+##  Fonctionnalités
+- ✅ Menu latéral (Sidebar)
+- ✅ Cartes de statistiques
+- ✅ Tableau de données
+- ✅ Interface responsive (adaptée aux écrans)
+- ✅ Navigation simple et rapide
 
-- Tableau de données
+---
 
 ## Technologies utilisées
+- HTML5
+- CSS (Grid & Flexbox)
 
-- HTML
+---
 
-- CSS (Grid)
-
-## Membres du projet
-
-- Amadou Bassirou Diallo
-
-- ALAMINE NDIAYE
-- MORY NDOUR
-
-## Installatio
-
-1. Cloner le projet
-
-2. Ouvrir le fichier index.html dans un navigate
-3. create README.md
+## Structure du projet
