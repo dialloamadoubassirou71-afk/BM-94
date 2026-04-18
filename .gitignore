@@ -1,0 +1,11 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers de dépendances (si vous en avez)
+node_modules/
+bin/
+obj/
+
+# Fichiers de configuration personnels
+.env
