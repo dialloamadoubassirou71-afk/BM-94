@@ -9,7 +9,7 @@ body{
 }
 .sidbar{
     width: 250px;
-    height: 100vh;
+    height: 140vh;
     background-color: black;
     color: whitesmoke;
     padding: 20px;
@@ -47,21 +47,21 @@ body{
     padding: 15px;
     border-radius: 15px;
 }
-.table{
+.sta{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-left: 10px;
+}
+.dia{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    background-color: whitesmoke;
+    gap: 5px;
+}
+.ba{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 15px;
-    color: white;
-    margin-left: 20px;
-
-}
-.ta{
-    background-color: black;
-    border-radius: 15px;
-    color: white;
-    text-align: center;
-    padding: 15px;
-}
-.ta h1{
-    color: whitesmoke;
 }
