@@ -9,7 +9,7 @@ body{
 }
 .sidbar{
     width: 250px;
-    height: 100vh;
+    height: 120vh;
     background-color: black;
     color: whitesmoke;
     padding: 20px;
@@ -64,4 +64,90 @@ body{
 }
 .ta h1{
     color: whitesmoke;
+}
+.ta:hover{
+    transform: scale(1);
+}
+.utilisateur {
+    display: grid;
+    background-color: whitesmoke;
+    gap:5Px;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:16px;
+    width: 100%;
+    border-radius:15px;
+    color:black;
+    margin-top:2%;
+    margin-left: 10px;
+   
+}
+.nom{
+display: flex;
+justify-content: center;
+align-items: center;
+ background-color: black;
+}
+.nom ul{
+     display: flex;
+    justify-content: center;
+    gap:100%;
+    font-size:20px;
+    list-style: none;
+    margin-right:35%;
+    color: whitesmoke;
+      
+}
+.p1{
+    display: flex;
+justify-content: center;
+align-items:center;
+gap: 50%;
+}
+.p1 ul{
+  display: flex;
+    justify-content: center;
+    gap:50%;
+    font-size:15px;
+    list-style: none;
+    margin-right:20%;
+}
+.p2{
+ display: flex;
+justify-content: center;
+align-items:center;
+gap: 50%;
+ background-color: black;
+ color: white;
+}
+.p2 ul{
+     display: flex;
+    justify-content: center;
+    gap:65%;
+    font-size:15px;
+    list-style: none;
+     margin-right:15%;
+}
+.p3{
+    display: flex;
+justify-content: center;
+align-items:center;
+gap: 50%;
+ background-color: whitesmoke;
+ color: black;
+}
+.p3 ul{
+ display: flex;
+    justify-content: center;
+    gap:45%;
+    font-size:15px;
+    list-style: none;
+      margin-right:17%;
+}
+.sta{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-left: 10px;
 }
