@@ -35,24 +35,40 @@ body{
     margin-left: 10px;
     color: whitesmoke;
 }
-.utilisateur {
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30%;
+    background-color:#011C40;
+    position: fixed;
+    margin-bottom:0;
+} 
+.utilisateur{
     display: grid;
     background-color: #011C40;
     gap:7Px;
     grid-template-rows: 1fr 1fr 1fr;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:16px;
-    width: 600px;
+    width:100%;
     border-radius:15px;
     color:white;
-    margin-top:2%;
-   
+}
+.notif{
+    display: flex;
+    justify-content: center;
+    gap:56%;
+}
+.use{
+     margin-top:5%;
 }
 .nom{
 display: flex;
 justify-content: center;
 align-items: center;
- background-color: #023859;
+ background-color:#023859;
 }
 .nom ul{
      display: flex;
