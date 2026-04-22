@@ -208,6 +208,40 @@ gap: 50%;
     list-style: none;
       margin-right:19%;
 }
+.p8{
+
+ display: flex;
+justify-content: center;
+align-items:center;
+gap: 50%;
+ background-color: white;
+ color: black;
+}
+.p8 ul{
+ display: flex;
+    justify-content: center;
+    gap:65%;
+    font-size:15px;
+    list-style: none;
+      margin-right:19%;
+}
+.p9{
+
+ display: flex;
+justify-content: center;
+align-items:center;
+gap: 50%;
+ background-color: white;
+ color: black;
+}
+.p9 ul{
+ display: flex;
+    justify-content: center;
+    gap:65%;
+    font-size:15px;
+    list-style: none;
+      margin-right:19%;
+}
 .droite{
     background-color: whitesmoke;
     gap:5Px;
@@ -275,4 +309,9 @@ gap:15px;
 .button2 button:hover{
     background-color:white;
     color:black;
+}
+.dernier img{
+    width:400px;
+    height: 150px;
+    border-radius:5%;
 }
