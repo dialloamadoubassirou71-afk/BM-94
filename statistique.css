@@ -73,3 +73,9 @@ body{
 .ba :hover{
      transform: scale(1.1);
 }
+.sta.don img {
+    transition:0.3s;
+}
+.sta.don img :hover {
+    transform: scale(1.1);
+}
