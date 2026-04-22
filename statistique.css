@@ -23,8 +23,9 @@ body{
     font-size: 25px;
 }
 .sidbar a:hover{
-    background-color: red;
+    background-color: whitesmoke;
     padding-left: 5px;
+    color: black;
 }
 .contenue{
     flex: 1;
@@ -77,5 +78,11 @@ body{
     transition:0.3s;
 }
 .sta.don img :hover {
+    transform: scale(1.1);
+}
+.sta.dia img {
+    transition:0.3s;
+}
+.sta.dia img :hover {
     transform: scale(1.1);
 }
