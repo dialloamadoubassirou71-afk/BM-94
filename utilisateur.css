@@ -8,7 +8,7 @@ body{
 }
 .sidbar{
     width: 250px;
-    height: 100vh;
+    height: 120vh;
     background-color: black;
     color: whitesmoke;
     padding: 20px;
@@ -214,14 +214,14 @@ gap: 50%;
  display: flex;
 justify-content: center;
 align-items:center;
-gap: 50%;
- background-color: white;
- color: black;
+gap:55%;
+ background-color:black;
+ color: white;
 }
 .p8 ul{
  display: flex;
     justify-content: center;
-    gap:65%;
+    gap:70%;
     font-size:15px;
     list-style: none;
       margin-right:19%;
@@ -238,7 +238,7 @@ gap: 50%;
 .p9 ul{
  display: flex;
     justify-content: center;
-    gap:65%;
+    gap:55%;
     font-size:15px;
     list-style: none;
       margin-right:19%;
